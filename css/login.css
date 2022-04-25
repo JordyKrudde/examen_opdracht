@@ -1,0 +1,49 @@
+.marginBottom {
+    margin-bottom:100px;
+}
+
+.loginEnRegistreerPaneel {
+    margin: 100px auto 0;
+    width: 80%;
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.loginEnRegistreerPaneel h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.loginEnRegistreerPaneel p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.loginEnRegistreerPaneel form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.loginEnRegistreerPaneel input {
+    margin-top: 10px;
+}
+
+.loginEnRegistreerPaneel button {
+    margin-top: 30px;
+}
+
+.loginEnRegistreerPaneel a {
+    color: black !important;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 766px) {
+    .loginEnRegistreerPaneel form {
+        width: 80%;
+        margin: auto;
+
+    }
+
+}

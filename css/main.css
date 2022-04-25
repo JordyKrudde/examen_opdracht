@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden !important;
+}
+
+
+.contentUnder {
+    margin-top: 100px;
+}
+
+
+.footer-dark {
+    position: relative;
+    top:200px;
+}
+
+/* Homepage CSS */
+
+.carousel {
+    position: relative;
+    margin-top: 100px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tennisfoto1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .heroBtn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .heroBtn:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.content{
+    margin-left: 20%;
+}
+
+.row-content{
+    margin-top: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-content img{
+    height: 300px;
+    box-shadow: 5px 8px 8px 2px #888888;
+}
+
+@media only screen and (max-width: 415px) {
+    .content {
+        margin-left: 5%;
+    }
+    .row-content img {
+        height: 200px;
+    }
+  }
+/* Toernooi overzicht CSS */
+
+.menu-toernooi {
+    margin-top: 100px;  
+    margin-left: 150px;
+    border-right: 1px solid black;
+}
+
+.menu-toernooi a {
+    color: black;
+}
+
+.menu-toernooi li {
+    list-style-type: none;
+}
+
+
+/* Menukaart css */
+
+table {
+    width: 100%;
+  }
+
+.menukaart:fullscreen {
+    background-color: white;
+    padding:10px;
+}

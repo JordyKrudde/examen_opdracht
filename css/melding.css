@@ -1,0 +1,28 @@
+.melding {
+    margin: 20px auto 0 auto;
+    display: block;
+    height: fit-content;
+    width: 80%;
+    border-radius: 3px;
+    cursor: pointer !important;
+}
+
+.melding h6 {
+    padding-left: 15px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.success {
+    background-color: rgba(42, 187, 155, 0.6);
+}
+
+.error {
+    background-color: rgba(214, 69, 65, 0.6);
+}
+
+@media screen and (max-width: 766px) {
+    .melding {
+        width: 80%;
+    }
+}

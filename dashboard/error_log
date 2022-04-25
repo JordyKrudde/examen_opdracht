@@ -1,0 +1,11 @@
+[02-Dec-2021 09:50:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'reserveer_tijd = '19:30'  AND baan_id = '1'' at line 1 in /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php:1002
+Stack trace:
+#0 /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php(1002): PDOStatement->execute()
+#1 {main}
+  thrown in /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php on line 1002
+[02-Dec-2021 09:51:34 UTC] PHP Parse error:  syntax error, unexpected variable "$reserveringenSql" in /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php on line 1002
+[02-Dec-2021 09:51:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'reserveer_tijd = '20:00'  AND baan_id = '1'' at line 1 in /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php:1051
+Stack trace:
+#0 /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php(1051): PDOStatement->execute()
+#1 {main}
+  thrown in /home/jkrudde/public_html/examen-project/dashboard/baan-reserveren.php on line 1051
